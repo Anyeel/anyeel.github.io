@@ -9,15 +9,21 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <header>
-  {% include "navbar.njk" %}
+  <a href="index.html">Menu</a>
+<a href="about.html">Sobre nosotros</a>
+<a href="location.html">Donde encontrarnos</a>
 </header>
 <body>
   <main>
     <div>
       <img src="imgs/logo.png" alt="Logo">  
     </div>
-    {% block content %}
-    {% endblock %}
+    
+<h1>Sobre Nosotros</h1>
+<p>Bienvenido a nuestro restaurante. Nos enorgullece ofrecer una experiencia culinaria única con los mejores ingredientes y un servicio excepcional.</p>
+<p>Desde nuestros humildes comienzos, hemos trabajado arduamente para convertirnos en un lugar donde las personas puedan disfrutar de buena comida y compañía.</p>
+<p>¡Gracias por visitarnos!</p>
+
   </main>
 </body>
 </html>
