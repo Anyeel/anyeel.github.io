@@ -1,4 +1,3 @@
-# filepath: /home/angel/anyeel.github.io/.github/workflows/deploy.yml
 name: CI/CD Nunjucks
 
 on:
@@ -20,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'  # Usa una versión estable de Node.js
+          node-version: '22.12'  # Usa una versión estable de Node.js
 
       - name: Install dependencies
         run: npm install
